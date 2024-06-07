@@ -5,7 +5,7 @@ authors = ["Taisei Mogi <periscope.era@gmail.com>"]
 edition = "2021"
 
 keywords = ["motor","robotics","I2C"]
-description = Keigan Motor KM1S motor control library using I2C for RaspberryPi.
+description = "Keigan Motor KM1S motor control library using I2C for RaspberryPi."
 categories = ["rppal"]
 license = "MIT"
 
