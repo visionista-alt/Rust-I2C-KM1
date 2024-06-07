@@ -1,9 +1,16 @@
 [package]
-name = "Rust-I2C-KM1"
+name = "I2C-KM1"
 version = "0.1.0"
+authors = ["Taisei Mogi <periscope.era@gmail.com>"]
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+keywords = ["motor","robotics","I2C"]
+description = Keigan Motor KM1S motor control library using I2C for RaspberryPi.
+categories = ["rppal"]
+license = "MIT"
+
+[badges]
+maintenance = { status = "actively-developed" }
 
 [dependencies]
 rppal = "0.16.1"
